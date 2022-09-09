@@ -10,5 +10,11 @@ namespace SubProject1
             something = "Something SUb1 ";
             Console.WriteLine(something);
         }
+
+        public void Sub1()
+        {
+            something = "Something SUb1 EXT ";
+            Console.WriteLine(something);
+        }
     }
 }
